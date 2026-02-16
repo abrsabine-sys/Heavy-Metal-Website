@@ -1,0 +1,53 @@
+/* Base page styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #111111; /* High contrast text */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Header styling */
+header {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation links */
+nav a {
+  color: #ffcc00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Main content */
+main {
+  padding: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #222222;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Responsive media query for mobile screens */
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  header {
+    padding: 15px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
